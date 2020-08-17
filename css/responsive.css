@@ -1,3 +1,31 @@
+@media only screen and (max-width: 1024px) {
+.logo_c{
+	margin-left: 12px;
+}
+
+.logo_c span{
+	left: 44px;
+}
+.banner-c{
+	width: 97%;
+}
+
+.banner-section{
+	height: 608px;
+}
+
+.about-control{
+	padding-bottom: 74px;
+}
+#gallery{
+	margin-bottom: 65px;
+}
+.white-heading{
+	padding-bottom: 37px;
+    padding-top: 46px;
+
+	}
+}
 @media only screen and (max-width: 991px) {
 .spn_c i{
 	color: #fff;
@@ -295,7 +323,7 @@ button:focus{
 }
 .img-wrapper img{
 	height: 163px;
-}
+	}
 }
 /*@media only screen and (max-width: 414px) {
 	.banner-c h1{
