@@ -213,3 +213,16 @@ $('#GetFile').on('click', function () {
         }
     });
 });
+
+$(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
+          $('.scrollup').fadeIn(1);
+        } else {
+          $('.scrollup').fadeOut(1);
+        }
+      }); 
+   
+      $('.scrollup').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+      });
